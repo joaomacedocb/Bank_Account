@@ -9,6 +9,5 @@ public class Main {
 
         System.out.println("Nome do cliente: " + customer1.getName());
         System.out.println("O seu saldo é: " + account1.getBalance());
-
     }
 }
