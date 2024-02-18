@@ -1,9 +1,9 @@
 public class Customer {
-    String document;
-    String name;
-    int age;
-    Account customerAccount;
-    boolean isActive;
+    private String document;
+    private String name;
+    private int age;
+    private Account customerAccount;
+    private boolean isActive;
     public Customer(String document, String name, int age, boolean isActive) {
         this.document = document;
         this.name = name;
@@ -11,34 +11,34 @@ public class Customer {
         this.isActive = isActive;
     }
 
-    String getDocument() {
+    public String getDocument() {
         return this.document;
     }
-    String getName() {
+    public String getName() {
         return this.name;
     }
-    int getAge() {
+    public int getAge() {
         return this.age;
     }
-    Account getCustomerAccount() {
+    public Account getCustomerAccount() {
         return this.customerAccount;
     }
-    boolean getIsActive(){
+    public boolean getIsActive(){
         return this.isActive;
     }
-    void setName(String name) {
+    public void setName(String name) {
         this.name = name;
     }
-    void setAge(int age) {
+    public void setAge(int age) {
         this.age = age;
     }
-    void setDocument(String document){
+    public void setDocument(String document){
         this.document = document;
     }
-    void setCustomerAccount (Account account) {
+    public void setCustomerAccount (Account account) {
         this.customerAccount = account;
     }
-    void setIsActive (boolean isActive) {
+    public void setIsActive (boolean isActive) {
         this.isActive = isActive;
     }
 

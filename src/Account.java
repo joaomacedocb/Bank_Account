@@ -1,6 +1,6 @@
 public class Account {
-    int agency;
-    int number;
+    private int agency;
+    private int number;
     private double balance;
     Customer accountOwner;
 
@@ -11,22 +11,22 @@ public class Account {
         this.accountOwner = accountOwner;
     }
 
-    int getNumber() {
+    public int getNumber() {
         return this.number;
     }
-    int getAgency() {
+    public int getAgency() {
         return this.agency;
     }
-    double getBalance() {
+    public double getBalance() {
         return this.balance;
     }
-    void setNumber(int number) {
+    public void setNumber(int number) {
         this.number = number;
     }
-    void setAgency(int agency){
+    public void setAgency(int agency){
         this.agency = agency;
     }
-    void setBalance(double balance) {
+    public void setBalance(double balance) {
         this.balance = balance ;
     }
 
