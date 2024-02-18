@@ -42,4 +42,13 @@ public class Customer {
         this.isActive = isActive;
     }
 
+    public String checkAccount () {
+        String feedbackAccount;
+        if (this.isActive){
+            return feedbackAccount = "O cliente está ativo.";
+        } else {
+            return feedbackAccount = "O cliente está inativo.";
+        }
+    }
+
 }
