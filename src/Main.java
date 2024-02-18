@@ -3,7 +3,12 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Account account1 = new Account(1324,30,0.00);
-        Account account2 = new Account(1324, 1234,300.00);
+        Customer customer1 = new Customer("03029092062","João",30, true);
+
+        Account account1 = new Account(5678,1324,100.00, customer1);
+
+        System.out.println("Nome do cliente: " + customer1.getName());
+        System.out.println("O seu saldo é: " + account1.getBalance());
+
     }
 }
