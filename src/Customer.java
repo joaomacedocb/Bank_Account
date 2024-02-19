@@ -10,7 +10,6 @@ public class Customer {
         this.age = age;
         this.isActive = isActive;
     }
-
     public String getDocument() {
         return this.document;
     }
