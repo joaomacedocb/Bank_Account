@@ -23,6 +23,7 @@ public class Main {
             System.out.println("Informe a sua idade:");
             int customerAnswerAge = sc.nextInt();
             sc.nextLine();
+
             customer1.setAge(customerAnswerAge);
 
             System.out.println("Certo! Agora digite o seu CPF. Obs.: Use apenas números.");
